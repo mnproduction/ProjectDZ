@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Позитивные тесткейсы</name>
+		<description>Позитивные тесткейсы</description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Отправка формы со всеми корректно заполненными полями</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Заполнить поля &quot;Ім&apos;я&quot;, &quot;Телефон&quot;, &quot;E-mail&quot; 
+2) Прикрепить документ 
+3) Отметить согласие с политикой 
+4) Нажать &quot;Відправити&quot;</steps>
+										<expected>Форма успешно отправлена, данные сохранены</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Отправка формы только с заполненным полем &quot;Ім&apos;я&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) В поле &quot;Ім&apos;я&quot; ввести данные
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Поля обязательные для заполнения отображаются красным цветом, форма не отправляется</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Отправка пустой формы без заполненных полей</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Не заполнять поля 
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Поля обязательные для заполнения отображаются красным цветом, форма не отправляется</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Отправка формы с прикрепленным документом</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Заполнить хотя бы одно поле 
+2) Прикрепить документ 
+3) Нажать &quot;Відправити&quot;</steps>
+										<expected>Форма и документ успешно отправлены</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Проверка ссылок на соц.сети</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Нажать на каждую иконку соц.сети</steps>
+										<expected>Все ссылки открываются в новой вкладке</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Отправка формы только с заполненным полем &quot;Телефон&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) В поле &quot;Телефон&quot; ввести данные 
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Поля обязательные для заполнения отображаются красным цветом, форма не отправляется</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Отправка формы только с заполненным полем &quot;E-mail&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) В поле &quot;E-mail&quot; ввести данные 
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Поля обязательные для заполнения отображаются красным цветом, форма не отправляется</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Отправка формы на английском языке</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой </preconds>
+										<steps>1) Заполнить все необходимые поля на английском языке
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Форма успешно отправлена на английском языке</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Отправка формы на русском языке</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Заполнить все необходимые поля на русском языке
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Форма успешно отправлена на русском языке</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Проверка выпадающего меню</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой </preconds>
+										<steps>1) Заполнить все поля
+2) Выбрать новый вариант в выпадающем меню &quot;Тематика звернення&quot;
+3) Нажать &quot;Відправити&quot;
+4) Повторить сначала пока есть новые варианты в выпадающем меню
+
+</steps>
+										<expected>Форма успешно отправлена при любом значении &quot;Тематика звернення&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Негативные тесткейсы</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C11</id>
+				<title>Отправка формы с  превышающей допустимую длину текста в полях</title>
+												<template>Test Case (Text)</template>
+																<type>Destructive</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Ввести данные с превышением макс. длины в поля 
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Форма успешно отправлена, данные сохранены с обрезанием</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C12</id>
+				<title>Отправка формы при медленном интернет-соединении</title>
+												<template>Test Case (Text)</template>
+																<type>Performance</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой, медленное соединение</preconds>
+										<steps>1) Заполнить поля 
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Форма отправляется после задержки</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C13</id>
+				<title>Отправка формы с недопустимыми символами в поле &quot;Ім&apos;я&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Destructive</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) В поле &quot;Ім&apos;я&quot; ввести недопустимые символы 
+2) Нажать &quot;Відправити&quot;</steps>
+										<expected>Выводится сообщение об ошибке, форма не отправляется</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Отправка формы с прикрепленным файлом недопустимого формата</title>
+												<template>Test Case (Text)</template>
+																<type>Destructive</type>
+																<priority>Medium</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Прикрепить файл недопустимого формата (dll, exe, com)
+ 
+</steps>
+										<expected>Выводится сообщение об ошибке, файл не принимается к отправке</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Отправка скрипта js в форме</title>
+												<template>Test Case (Text)</template>
+																<type>Destructive</type>
+																<priority>Critical</priority>
+								<assignedto>Adolf Banderas</assignedto>
+												<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыта страница с формой</preconds>
+										<steps>1) Заполнить поля скриптом js
+2) Нажать &quot;Відправити&quot;
+</steps>
+										<expected>Выводится сообщение об ошибке, форма не отправляется</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
